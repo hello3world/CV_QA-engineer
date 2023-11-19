@@ -25,6 +25,19 @@
     justify-content: space-between;
 }
 &__title {
+    position: relative;
+    padding-left: 10px;
+}
+&__title::before {
+    position: absolute;
+    display: block;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: -5px;
+    content: " ";
+    width: 5px;
+    height: 5px;
+    background-color: #000;
 }
 &__date {
 }

@@ -281,6 +281,22 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+.education__title {
+  position: relative;
+  padding-left: 10px;
+}
+.education__title::before {
+  position: absolute;
+  display: block;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  left: -5px;
+  content: " ";
+  width: 5px;
+  height: 5px;
+  background-color: #000;
+}
 .courses {
   margin-bottom: 20px;
 }
