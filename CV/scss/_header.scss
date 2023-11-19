@@ -1,0 +1,32 @@
+.header {
+    
+    padding: 20px 10px;
+    &__container {
+        display: flex;
+    justify-content: space-between;
+
+    }
+    &__info {      
+    }
+    &__title {
+        margin: 0 0 20px 0;
+        font-weight: 600;
+    }
+    &__name {
+        margin: 0 0 10px 0;
+    }
+    &__list {
+    }
+    &__item {
+        margin: 0 0 5px 0;
+    }
+    &__link {
+    }
+    &__photo {
+        display: block;
+        width: 20%;
+        height: 20%;
+    }
+}
+
+

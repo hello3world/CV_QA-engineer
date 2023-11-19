@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+
+  // @media (max-width:768px) {
+  //   font-size: 12px;
+  // }
+
+  // @media (max-width:576px) {
+  //   font-size: 10px;
+  // }
+}
+
+body {
+  width: 100%;
+
+  //@include textStyle;
+
+  // .container {
+  //   transition: background 0.2s linear;
+  // }
+
+  // &__content {
+  //   width: 100%;
+  // }
+
+  // .body-btn {
+  //   position: absolute;
+  //   top: 50%;
+  //   left: 50%;
+
+  //   font-size: 48px;
+  //   color: green;
+
+  //   transform: translate(-50%, -50%);
+  //   transition: opacity ease-in 1s;
+  //   opacity: 0;
+  //   animation: blink 2000ms alternate 5s infinite;
+  // }
+
+}
+
+.container {
+  width: 100%;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+img {
+  width: 100%;
+}

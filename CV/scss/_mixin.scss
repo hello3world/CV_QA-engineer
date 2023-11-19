@@ -1,0 +1,31 @@
+// @mixin textStyle {
+//   font-family: 'PT Sans Narrow', sans-serif;
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 100%;
+//   line-height: 1.7;
+//   color: $colorText;
+// }
+
+@mixin header3 {
+  width: 100%;
+  max-width: 120px;
+    padding: 5px 0;
+    margin-bottom: 10px;
+     font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 700;
+  font-size: 110%;
+  line-height: 1.33;
+    background: $colorHeadingBgMain;
+    color: $colorHeadingTxtMain;
+    text-align: center;
+}
+
+// @mixin header2 {
+//   font-family: 'Playfair Display', serif;
+//   font-weight: 900;
+//   font-size: 180%;
+//   line-height: 1.28;
+//   color: $colorText;
+//   margin-bottom: 10px;
+// }
