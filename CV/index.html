@@ -6,38 +6,56 @@
     <title>CV</title>
     <link rel="shortcut icon" href="./images/cv.png" type="image/x-icon" />
     <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/0c654557a8.js"
+      crossorigin="anonymous"
+    ></script>
+    
   </head>
   <body>
     <header class="header">
-      <div class="container header__container">
-        <div class="header__info">
-          <h1 class="header__title">QA – engineer</h1>
-          <h2 class="header__name">Yauheni Paulovich</h2>
-          <ul class="header__list">
-            <li class="header__item">
-              Email: <a href="" class="header__link">e.pavloich29@gmail.com</a>
-            </li>
-            <li class="header__item">
-              Telegram: <a href="" class="header__link"
-                >https://t.me/e_pavlovich</a
-              >
-            </li>
-            <li class="header__item">
-              Git: <a href="" class="header__link"
-                >https://github.com/hello3world</a
-              >
-            </li>
-            <li class="header__item">
-              LinkedIn: <a href="" class="header__link"></a>
-            </li>
-            <li class="header__item">City: Minsk</li>
-          </ul>
+      <div class="container">
+        <div class="header__toolbar">
+          <div class="changeTheme">
+            <input type="checkbox" class="checkbox" id="chk" /><label
+              class="label"
+              for="chk"
+              ><i class="fas fa-moon"></i><i class="fas fa-sun"></i>
+              <div class="ball" id="ball"></div>
+            </label>
+          </div>
         </div>
-        <img src="./images/avatar.png" alt="" class="header__photo" />
+        <div class="header__container">
+          <div class="header__info">
+            <h1 class="header__title">QA – engineer</h1>
+            <h2 class="header__name">Yauheni Paulovich</h2>
+            <ul class="header__list">
+              <li class="header__item">
+                Email:
+                <a href="mailto:e.pavloich29@gmail.com" class="header__link">e.pavloich29@gmail.com</a>
+              </li>
+              <li class="header__item">
+                Telegram:
+                <a href="https://t.me/e_pavlovich" class="header__link">e_pavlovich</a>
+              </li>
+              <li class="header__item">
+                GitHub:
+                <a href="https://github.com/hello3world" class="header__link"
+                  >hello3world</a
+                >
+              </li>
+              <!-- <li class="header__item">
+                LinkedIn: <a href="" class="header__link"></a>
+              </li> -->
+              <li class="header__item">City: Minsk</li>
+            </ul>
+          </div>
+          <img src="./images/avatar.png" alt="" class="header__photo" />
+        </div>
       </div>
     </header>
     <section class="skills">
-      <div class="container">
+      <div class="container skills__container">
         <h3 class="skills__heading">Skills</h3>
         <table class="skills__table">
           <tr class="skills__row">
@@ -84,7 +102,6 @@
         <h3 class="experience__heading">Experience</h3>
         <h4 class="experience__title">Courses:</h4>
         <div class="experience__info">
-          
           <ul class="experience__list">
             <li class="experience__item">Manual testing of web/mobile</li>
             <li class="experience__item">Testing Rest API with Postman</li>
@@ -168,5 +185,6 @@
         </div>
       </div>
     </section>
+    <script src="./scripts/index.js"></script>
   </body>
 </html>

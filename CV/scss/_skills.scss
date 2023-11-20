@@ -1,7 +1,13 @@
 .skills {
+&__container {
+    display: flex;
+    gap: 10px 40px;
+}
+
     margin-bottom: 20px;
     &__heading {
         @include header3;
+        align-self: flex-start;
     }
     &__table {
            border-spacing: 0 5px;

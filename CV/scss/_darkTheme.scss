@@ -1,0 +1,95 @@
+
+.dark {
+  color: $colorTextDark;
+  background: $bgColorDark;
+
+  a {
+    color: #fff
+  }
+
+  h3 {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .label {
+    background-color: #000000;
+    border: 1px solid #ffffff;
+  }
+
+  .label .ball {
+    background-color: #ffffff;
+  }
+
+  .fa-moon {
+    color: #ffffff;
+  }
+
+
+  .education ::before,
+  .courses ::before {
+    background-color: #ffffff;
+  }
+
+  .header {
+
+    .header--bg {
+      background-image: url('../../assets/img/bgHeaderDark.png');
+      background-repeat: no-repeat;
+    }
+
+    &__name {
+      color: $colorTextDark;
+    }
+  }
+
+  .main {
+
+    .aboutMe {
+
+      &__title {
+        color: $colorTextDark;
+      }
+
+      &__text {
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+    }
+
+    .experience {
+
+      &__title {
+        color: $colorTextDark;
+      }
+
+    }
+
+    .education {
+
+      &__title {
+        color: $colorTextDark;
+      }
+
+    }
+
+    .code {
+      &__title {
+        color: $colorTextDark;
+      }
+    }
+  }
+
+  .footer {
+
+    .footer--bg {
+      background-image: url('../../assets/img/bgFooterDark.png');
+      background-repeat: no-repeat;
+    }
+
+    &__cta {
+      color: $colorTextDark;
+    }
+
+  }
+
+}

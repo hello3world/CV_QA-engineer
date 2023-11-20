@@ -1,5 +1,8 @@
 .header {
-    
+    &__toolbar {
+        display: flex;
+        justify-content: center;
+    }
     padding: 20px 10px;
     &__container {
         display: flex;
@@ -16,6 +19,9 @@
         margin: 0 0 10px 0;
     }
     &__list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
     }
     &__item {
         margin: 0 0 5px 0;
