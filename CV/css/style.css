@@ -314,8 +314,7 @@ a {
       align-self: flex-start;
 }
 .skills__table {
-  border-spacing: 0 5px;
-  border-collapse: separate;
+  border-spacing: 0 11px;
 }
 .skills th {
   text-align: left;
@@ -323,6 +322,9 @@ a {
 .skills td {
   padding-left: 60px;
   font-weight: 600;
+}
+.skills__item {
+  list-style-type: none;
 }
 
 .summary {
@@ -370,6 +372,40 @@ a {
   display: flex;
   gap: 10px 40px;
 }
+.experience__item-job {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 20px;
+}
+.experience__item-job:last-child {
+  margin-bottom: 0;
+}
+.experience__history {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.experience__item-info {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 12px;
+}
 .experience__heading {
   width: 100%;
   max-width: 120px;
@@ -395,14 +431,26 @@ a {
   width: 100%;
 }
 .experience__title {
-  text-decoration: underline;
+  font-weight: 600;
 }
 .experience__list {
   list-style-type: square;
+  padding: 0 0 0 13px;
+}
+.experience__list p {
+  margin: 0 0 7px -13px;
 }
 .experience__item {
   margin-bottom: 5px;
 }
+.experience__place {
+  font-weight: 600;
+  color: rgb(14, 53, 86);
+}
+.experience__date {
+  font-style: oblique;
+}
+
 .education {
   margin-bottom: 20px;
 }
@@ -438,7 +486,6 @@ a {
 }
 .education__list {
   width: 100%;
-  list-style-type: square;
 }
 .education__item {
   width: 100%;
@@ -448,10 +495,14 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 5px;
 }
 .education__title {
   position: relative;
   padding-left: 10px;
+}
+.education__title b {
+  font-weight: 700;
 }
 .education__title::before {
   position: absolute;
@@ -461,10 +512,14 @@ a {
           transform: translate(0, -50%);
   left: -5px;
   content: " ";
-  width: 5px;
-  height: 5px;
+  width: 4px;
+  height: 4px;
   background-color: #000;
 }
+.education__date {
+  font-style: oblique;
+}
+
 .courses {
   margin-bottom: 20px;
 }

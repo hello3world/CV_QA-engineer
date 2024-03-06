@@ -14,31 +14,34 @@
         justify-content: space-between;
         width: 100%;
     }
-&__list {
-    width: 100%;
-    list-style-type: square;
-
-}
-&__item {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-&__title {
-    position: relative;
-    padding-left: 10px;
-}
-&__title::before {
-    position: absolute;
-    display: block;
-    top: 50%;
-    transform: translate(0, -50%);
-    left: -5px;
-    content: " ";
-    width: 5px;
-    height: 5px;
-    background-color: #000;
-}
-&__date {
-}
+    &__list {
+        width: 100%;
+    }
+    &__item {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+    }
+    &__title {
+        position: relative;
+        padding-left: 10px;
+        b {
+            font-weight: 700;
+        }
+    }
+    &__title::before {
+        position: absolute;
+        display: block;
+        top: 50%;
+        transform: translate(0, -50%);
+        left: -5px;
+        content: " ";
+        width: 4px;
+        height: 4px;
+        background-color: #000;
+    }
+    &__date {
+        font-style: oblique;
+    }
 }

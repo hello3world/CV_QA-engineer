@@ -4,26 +4,61 @@
         gap: 10px 40px;
     }
 
+    &__item-job {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    &__item-job:last-child {
+        margin-bottom: 0;
+    }
+
+    &__history {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item-info {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 12px;
+    }
+
     margin-bottom: 20px;
     &__heading {
         @include header3;
         align-self: flex-start;
     }
+
     &__info {
         display: flex;
         justify-content: space-between;
         width: 100%;
     }
     &__title {
-        text-decoration: underline;
+        font-weight: 600;
     }
 
     &__list {
         list-style-type: square;
+        padding: 0 0 0 13px;
+
+        p {
+            margin: 0 0 7px -13px;
+        }
     }
     &__item {
         margin-bottom: 5px;
     }
+
+    &__place {
+        font-weight: 600;
+        color: rgb(14, 53, 86);
+    }
     &__date {
+        font-style: oblique;
     }
 }

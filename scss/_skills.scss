@@ -1,8 +1,8 @@
 .skills {
-&__container {
-    display: flex;
-    gap: 10px 40px;
-}
+    &__container {
+        display: flex;
+        gap: 10px 40px;
+    }
 
     margin-bottom: 20px;
     &__heading {
@@ -10,13 +10,10 @@
         align-self: flex-start;
     }
     &__table {
-           border-spacing: 0 5px;
-	border-collapse: separate; 
+        border-spacing: 0 11px;
     }
 
-
     &__row {
-
     }
 
     th {
@@ -26,5 +23,9 @@
     td {
         padding-left: 60px;
         font-weight: 600;
+    }
+
+    &__item {
+        list-style-type: none;
     }
 }
