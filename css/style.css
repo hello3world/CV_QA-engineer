@@ -160,11 +160,9 @@ a {
 .header__title {
   margin: 0 0 20px 0;
   font-weight: 600;
-  text-transform: uppercase;
 }
 .header__name {
   margin: 0 0 10px 0;
-  font-weight: 800;
 }
 .header__list {
   display: -webkit-box;
@@ -178,15 +176,6 @@ a {
 }
 .header__item {
   margin: 0 0 5px 0;
-}
-.header__icon {
-  width: 3%;
-  vertical-align: bottom;
-}
-.header__link {
-  color: black;
-  font-weight: 700;
-  text-decoration: underline;
 }
 .header__photo {
   display: block;
@@ -321,42 +310,6 @@ a {
   text-align: left;
 }
 .skills td {
-  padding-left: 60px;
-  font-weight: 600;
-}
-
-.summary {
-  margin-bottom: 20px;
-}
-.summary__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 10px 40px;
-}
-.summary__heading {
-  width: 100%;
-  max-width: 120px;
-  padding: 5px 0;
-  margin: 2px 0 10px 0;
-  font-family: "PT Sans Narrow", sans-serif;
-  font-weight: 700;
-  font-size: 110%;
-  line-height: 1.33;
-  background: #000;
-  color: #fff;
-  text-align: center;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-}
-.summary__table {
-  border-spacing: 0 5px;
-  border-collapse: separate;
-}
-.summary th {
-  text-align: left;
-}
-.summary td {
   padding-left: 60px;
   font-weight: 600;
 }
