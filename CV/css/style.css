@@ -183,6 +183,11 @@ a {
   width: 3%;
   vertical-align: bottom;
 }
+@media (max-width: 576px) {
+  .header__icon {
+    width: 4.5%;
+  }
+}
 .header__link {
   color: black;
   font-weight: 700;
@@ -192,6 +197,12 @@ a {
   display: block;
   width: 20%;
   height: 20%;
+}
+@media (max-width: 576px) {
+  .header__photo {
+    width: 25%;
+    height: 25%;
+  }
 }
 
 .changeTheme {
@@ -235,6 +246,12 @@ a {
     width: 31px;
   }
 }
+@media (max-width: 576px) {
+  .label {
+    height: 13px;
+    width: 26px;
+  }
+}
 
 .label .ball {
   background-color: #272727;
@@ -257,6 +274,12 @@ a {
     width: 12px;
   }
 }
+@media (max-width: 576px) {
+  .label .ball {
+    height: 9px;
+    width: 9px;
+  }
+}
 
 .checkbox:checked + .label .ball {
   -webkit-transform: translateX(16px);
@@ -264,8 +287,8 @@ a {
 }
 @media (max-width: 768px) {
   .checkbox:checked + .label .ball {
-    -webkit-transform: translateX(15px);
-            transform: translateX(15px);
+    -webkit-transform: translateX(12px);
+            transform: translateX(12px);
   }
 }
 
@@ -278,6 +301,11 @@ a {
     font-size: 10px;
   }
 }
+@media (max-width: 576px) {
+  .fa-moon {
+    font-size: 7px;
+  }
+}
 
 .fa-sun {
   font-size: 10px;
@@ -286,6 +314,11 @@ a {
 @media (max-width: 768px) {
   .fa-sun {
     font-size: 9px;
+  }
+}
+@media (max-width: 576px) {
+  .fa-sun {
+    font-size: 7px;
   }
 }
 
@@ -323,6 +356,11 @@ a {
   padding-left: 60px;
   font-weight: 600;
 }
+@media (max-width: 576px) {
+  .skills td {
+    padding-left: 5px;
+  }
+}
 .skills__item {
   list-style-type: none;
 }
@@ -335,6 +373,14 @@ a {
   display: -ms-flexbox;
   display: flex;
   gap: 10px 40px;
+}
+@media (max-width: 576px) {
+  .summary__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 .summary__heading {
   width: 100%;
@@ -405,6 +451,15 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 12px;
+}
+@media (max-width: 576px) {
+  .experience__item-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 5px;
+  }
 }
 .experience__heading {
   width: 100%;
@@ -724,6 +779,16 @@ a {
 
 html {
   font-size: 16px;
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media (max-width: 576px) {
+  html {
+    font-size: 10px;
+  }
 }
 
 body {

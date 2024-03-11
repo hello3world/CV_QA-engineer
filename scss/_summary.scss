@@ -2,6 +2,9 @@
     &__container {
         display: flex;
         gap: 10px 40px;
+        @media (max-width: 576px) {
+            flex-direction: column;
+        }
     }
 
     margin-bottom: 20px;

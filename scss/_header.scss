@@ -47,6 +47,9 @@
     &__icon {
         width: 3%;
         vertical-align: bottom;
+        @media (max-width: 576px) {
+            width: 4.5%;
+        }
     }
     &__link {
         color: black;
@@ -57,5 +60,9 @@
         display: block;
         width: 20%;
         height: 20%;
+        @media (max-width: 576px) {
+            width: 25%;
+            height: 25%;
+        }
     }
 }

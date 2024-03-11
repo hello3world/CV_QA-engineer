@@ -22,9 +22,13 @@
   width: 34px;
   transform: scale(1.5);
 
-  @media (max-width:768px) {
+  @media (max-width: 768px) {
     height: 17px;
     width: 31px;
+  }
+  @media (max-width: 576px) {
+    height: 13px;
+    width: 26px;
   }
 }
 
@@ -39,17 +43,21 @@
   transform: translateX(-1px);
   transition: transform 0.2s linear;
 
-  @media (max-width:768px) {
+  @media (max-width: 768px) {
     height: 12px;
     width: 12px;
   }
+  @media (max-width: 576px) {
+    height: 9px;
+    width: 9px;
+  }
 }
 
-.checkbox:checked+.label .ball {
+.checkbox:checked + .label .ball {
   transform: translateX(16px);
 
-  @media (max-width:768px) {
-    transform: translateX(15px);
+  @media (max-width: 768px) {
+    transform: translateX(12px);
   }
 }
 
@@ -57,8 +65,12 @@
   font-size: 10px;
   color: #000000;
 
-  @media (max-width:768px) {
+  @media (max-width: 768px) {
     font-size: 10px;
+  }
+
+  @media (max-width: 576px) {
+    font-size: 7px;
   }
 }
 
@@ -66,7 +78,10 @@
   font-size: 10px;
   color: #000000;
 
-  @media (max-width:768px) {
+  @media (max-width: 768px) {
     font-size: 9px;
+  }
+  @media (max-width: 576px) {
+    font-size: 7px;
   }
 }
