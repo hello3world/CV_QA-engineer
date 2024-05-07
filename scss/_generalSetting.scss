@@ -44,11 +44,26 @@ body {
 
 .container {
   width: 100%;
-  max-width: 860px;
+  max-width: 1366px;
   margin: 0 auto;
   padding: 0 10px;
 }
 
 img {
   width: 100%;
+}
+
+.link_to_view {
+  font-style: italic;
+  font-weight: 600;
+  text-decoration: underline;
+  &:active {
+    color: #000;
+  }
+  &:visited {
+    color: #000;
+  }
+  &:hover {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.35);
+  }
 }

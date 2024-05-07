@@ -10,15 +10,15 @@
 @mixin header3 {
   width: 100%;
   max-width: 120px;
-    padding: 5px 0;
-    margin: 2px 0 10px 0;
-     font-family: 'PT Sans Narrow', sans-serif;
+  padding: 5px 0;
+  margin: 2px 0 10px 0;
+  font-family: "PT Sans Narrow", sans-serif;
   font-weight: 700;
   font-size: 110%;
   line-height: 1.33;
-    background: $colorHeadingBgMain;
-    color: $colorHeadingTxtMain;
-    text-align: center;
+  background: $colorHeadingBgMain;
+  color: $colorHeadingTxtMain;
+  text-align: center;
 }
 
 // @mixin header2 {

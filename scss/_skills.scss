@@ -28,6 +28,10 @@
         }
     }
 
+    td:nth-child(3) {
+        vertical-align: bottom;
+    }
+
     &__item {
         list-style-type: none;
     }
