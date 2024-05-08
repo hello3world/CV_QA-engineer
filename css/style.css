@@ -730,6 +730,10 @@ a {
 }
 .galary {
   margin-bottom: 20px;
+  /* Add padding BETWEEN each column */
+  /* Create four equal columns that floats next to each other */
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 }
 .galary__container {
   display: -webkit-box;
@@ -751,41 +755,46 @@ a {
   text-align: center;
   -ms-flex-item-align: start;
       align-self: flex-start;
-  margin-bottom: 5px !important;
-  font-weight: 600 !important;
+  width: 120px;
+  min-width: 120px;
 }
-
-/* Add padding BETWEEN each column */
-.row,
-.row > .column {
-  padding: 0 8px 8px 0;
+.galary img {
+  border: 1px solid black;
+  cursor: pointer;
 }
-
-/* Create four equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 25%;
+.galary h4 {
+  margin-bottom: 7px;
+  font-weight: 600;
 }
-
-/* Clear floats after rows */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.galary .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 16px 8px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-  .column {
-    width: 50%;
+.galary .column {
+  max-width: 24%;
+}
+@media screen and (max-width: 1176px) {
+  .galary .column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 49%;
   }
 }
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
+  .galary .column {
+    max-width: 95%;
   }
 }
+
 .dark {
   color: #ffffff;
   background: #0e1b1d;

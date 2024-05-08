@@ -8,40 +8,44 @@
     &__heading {
         @include header3;
         align-self: flex-start;
-        margin-bottom: 5px !important;
-        font-weight: 600 !important;
+        width: 120px;
+        min-width: 120px;
     }
-}
 
-/* Add padding BETWEEN each column */
-.row,
-.row > .column {
-    padding: 0 8px 8px 0;
-}
-
-/* Create four equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 25%;
-}
-
-/* Clear floats after rows */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-    .column {
-        width: 50%;
+    img {
+        border: 1px solid black;
+        cursor: pointer;
     }
-}
+    h4 {
+        margin-bottom: 7px;
+        font-weight: 600;
+    }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+    /* Add padding BETWEEN each column */
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px 8px;
+        justify-content: space-between;
+    }
+
+    /* Create four equal columns that floats next to each other */
     .column {
-        width: 100%;
+        max-width: 24%;
+    }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 1176px) {
+        .column {
+            flex-direction: column;
+            max-width: 49%;
+        }
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+        .column {
+            max-width: 95%;
+        }
     }
 }
