@@ -196,6 +196,9 @@ a {
     width: 4.5%;
   }
 }
+.header__item-img {
+  vertical-align: middle;
+}
 .header__link {
   color: black;
   font-weight: 700;
@@ -802,6 +805,12 @@ a {
 .dark a {
   color: #fff;
 }
+.dark .link_to_view:active {
+  color: rgb(194, 219, 240);
+}
+.dark .link_to_view:visited {
+  color: rgb(194, 219, 240);
+}
 .dark h3 {
   background-color: #ffffff;
   color: #000000;
@@ -827,6 +836,13 @@ a {
 .dark .header__name {
   color: #ffffff;
 }
+.dark .header__title {
+  color: #bad7f3;
+  text-shadow: 1px 1px 0px rgb(159, 171, 185), 1px 2px 0px rgb(159, 171, 185), 1px 3px 0px rgb(159, 171, 185), 1px 4px 0px rgb(159, 171, 185), 1px 5px 0px rgb(159, 171, 185), 1px 6px 0px rgb(159, 171, 185), 1px 5px 5px rgba(16, 16, 16, 0.4), 1px 10px 10px rgba(16, 16, 16, 0.3), 1px 15px 25px rgba(16, 16, 16, 0.2), 1px 20px 40px rgba(16, 16, 16, 0.1);
+}
+.dark .experience__place {
+  color: rgb(194, 219, 240);
+}
 .dark .main .aboutMe__title {
   color: #ffffff;
 }
@@ -835,6 +851,9 @@ a {
 }
 .dark .main .experience__title {
   color: #ffffff;
+}
+.dark .main .experience__place {
+  color: rgb(194, 219, 240);
 }
 .dark .main .education__title {
   color: #ffffff;

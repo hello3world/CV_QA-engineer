@@ -65,10 +65,14 @@
     }
     &__icon {
         width: 3%;
+
         vertical-align: bottom;
         @media (max-width: 576px) {
             width: 4.5%;
         }
+    }
+    &__item-img {
+        vertical-align: middle;
     }
     &__link {
         color: black;
