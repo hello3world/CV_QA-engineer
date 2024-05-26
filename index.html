@@ -1,531 +1,414 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV</title>
-    <link rel="shortcut icon" href="./images/cv.png" type="image/x-icon" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <script
-      src="https://kit.fontawesome.com/0c654557a8.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
 
-  <body>
-    <header class="header">
-      <div class="container">
-        <div class="header__toolbar">
-          <div class="changeTheme">
-            <input type="checkbox" class="checkbox" id="chk" /><label
-              class="label"
-              for="chk"
-              ><i class="fas fa-moon"></i><i class="fas fa-sun"></i>
-              <span class="ball" id="ball"></span>
-            </label>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV</title>
+  <link rel="shortcut icon" href="./images/cv.png" type="image/x-icon" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <script src="https://kit.fontawesome.com/0c654557a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__toolbar">
+        <div class="changeTheme">
+          <input type="checkbox" class="checkbox" id="chk" /><label class="label" for="chk"><i
+              class="fas fa-moon"></i><i class="fas fa-sun"></i>
+            <span class="ball" id="ball"></span>
+          </label>
+        </div>
+      </div>
+      <div class="header__container">
+        <div class="header__info">
+          <h1 class="header__title">QA Automation Engineer</h1>
+          <h2 class="header__name">Yauheni Paulovich</h2>
+          <ul class="header__list">
+            <li class="header__item">
+              <span class="header__item-img"><img src="./images/icon/mail.png" alt="" class="header__icon"
+                  id="icon_mail" /></span>
+              Email:
+              <a href="mailto:e.pavloich29@gmail.com" class="header__link">e.pavloich29@gmail.com</a>
+            </li>
+            <li class="header__item">
+              <span class="header__item-img"><img src="./images/icon/telegram.png" alt="" class="header__icon" /></span>
+              Telegram:
+              <a href="https://t.me/e_pavlovich" class="header__link">link</a>
+            </li>
+            <li class="header__item">
+              <span class="header__item-img"><img src="./images/icon/linkedin.png" alt="" class="header__icon" /></span>
+              LinkedIn:
+              <a href="https://www.linkedin.com/in/yauheni-paulovich-2601b31a5/" class="header__link">link</a>
+            </li>
+            <li class="header__item">
+              <span class="header__item-img"><img src="./images/icon/code.png" alt="" class="header__icon" /></span>
+              GitHub:
+              <a href="https://github.com/hello3world" class="header__link">link</a>
+            </li>
+            <li class="header__item">
+              <span class="header__item-img"><img src="./images/icon/phone.png" alt="" class="header__icon" /></span>
+              Phone:
+              <span class="header_number">
+                +375445867240</span>
+            </li>
+            <li class="header__item">
+              <span class="header__item-img"><img src="./images/icon/geo.png" alt="" id="icon_geo"
+                  class="header__icon" /></span>
+
+              City: <span class="header__city">Minsk</span>
+            </li>
+          </ul>
+        </div>
+        <img src="./images/avatar.png" alt="" class="header__photo" />
+      </div>
+    </div>
+  </header>
+  <section class="summary">
+    <div class="container summary__container">
+      <h3 class="summary__heading">Summary</h3>
+      <span class="hobbies__title">
+        QA Automation Engineer with about a year of experience in the field of quality assurance. My
+        knowledge includes the software quality assurance process using automation tools such as Python
+        and Selenium. <br>
+        I am a dedicated specialist with more than 2 years of experience managing a team of knowledge
+        quality control specialists in the energy industry. I am proactive, adaptable, and have strong
+        analytical and self-organizing skills. I'm attentive to details, open-minded and have excellent
+        communication skills. <br>
+        I place great importance on maintaining a high level of professionalism and have a continuous
+        enthusiasm for self-study and developing my technical skills.
+      </span>
+    </div>
+  </section>
+  <section class="skills">
+    <div class="container skills__container">
+      <h3 class="skills__heading">Skills</h3>
+      <table class="skills__table">
+        <tr class="skills__row">
+          <th>Testing:</th>
+          <td>
+            <ul class="skills__list">
+              <li class="skills__item">
+                Functional, integration manual testing of web and mobile
+                applications
+              </li>
+              <li class="skills__item">
+                Development of test cases, checklists, bug reports
+                <a class="link_to_view" target="_blank"
+                  href="https://github.com/hello3world/TestDocumentation/blob/main/README.md">link to view</a>
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr class="skills__row">
+          <th>Languages:</th>
+          <td>
+            <ul class="skills__list">
+              <li class="skills__item">
+                Python
+                <a class="link_to_view" target="_blank" href="./images/certificate_Python.jpg">certificate</a>
+              </li>
+              <li class="skills__item">
+                JavaScript
+                <a class="link_to_view" target="_blank" href="./images/certificate_JS.jpg">certificate</a>
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr class="skills__row">
+          <th>Databases (DBMS):</th>
+          <td>SQL / MySQL / SQLite</td>
+        </tr>
+        <tr class="skills__row">
+          <th>Testing frameworks:</th>
+          <td>Selenium <a class="link_to_view" href="https://github.com/hello3world/saucedemo_autotests">link to
+              view</a></td>
+        </tr>
+        <tr class="skills__row">
+          <th>Front-end:</th>
+          <td>
+            <ul class="skills__list">
+              <li class="skills__item">
+                HTML5
+                <a class="link_to_view"
+                  href="https://github.com/hello3world/CV_QA-engineer/blob/main/CV/index.html">link to view</a>
+              </li>
+              <li class="skills__item">
+                CSS3 / SCSS
+                <a class="link_to_view" href="https://github.com/hello3world/CV_QA-engineer/tree/main/CV/scss">link to
+                  view</a>
+              </li>
+              <li class="skills__item">JSON</li>
+            </ul>
+          </td>
+        </tr>
+        <tr class="skills__row">
+          <th>TMS:</th>
+          <td>Jira + Zephyr</td>
+        </tr>
+        <tr class="skills__row">
+          <th>IDE:</th>
+          <td>PyCharm / Visual Studio Code</td>
+        </tr>
+        <tr class="skills__row">
+          <th>Tools:</th>
+          <td>
+            <ul class="skills__list">
+              <li class="skills__item">
+                Git / Git Hub
+                <a class="link_to_view" href="https://github.com/hello3world/TestDocumentation/blob/main/README.md">link
+                  to view</a>
+              </li>
+              <li class="skills__item">Postman <a class="link_to_view" target="_blank"
+                  href="./images/certificate_JS.jpg">certificate</a></li>
+              <li class="skills__item">Jmeter</li>
+              <li class="skills__item">Fiddler</li>
+              <li class="skills__item">Chrome DevTools</li>
+            </ul>
+          </td>
+        </tr>
+        <tr class="skills__row">
+          <th>Network:</th>
+          <td>Client-server architecture / HTTP</td>
+        </tr>
+        <tr class="skills__row">
+          <th>Other:</th>
+          <td>Figma, Photoshop</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+  <section class="experience">
+    <div class="container experience__container">
+      <h3 class="experience__heading">Experience</h3>
+      <div class="experience__history">
+
+        <div class="experience__item-job">
+          <div class="experience__item-info">
+            <h4 class="experience__title">QA AUTOMATION ENGINEER:</h4>
+            <div class="experience__place">RedRover.school</div>
+            <div class="experience__date">Jan 2024 – present (remote)</div>
+          </div>
+          <div class="experience__info">
+            <ul class="experience__list">
+              <li class="experience__item">writing automation tests in Selenium Python;</li>
+              <li class="experience__item">automation smoke testing business ways of an online store;</li>
+              <li class="experience__item">testing requirements;</li>
+              <li class="experience__item">writing SQL-requests;</li>
+              <li class="experience__item">manage testing team;</li>
+              <li class="experience__item">writing test cases.</li>
+            </ul>
           </div>
         </div>
-        <div class="header__container">
-          <div class="header__info">
-            <h1 class="header__title">QA – engineer</h1>
-            <h2 class="header__name">Yauheni Paulovich</h2>
-            <ul class="header__list">
-              <li class="header__item">
-                <span class="header__item-img"
-                  ><img
-                    src="./images/icon/mail.png"
-                    alt=""
-                    class="header__icon"
-                    id="icon_mail"
-                /></span>
-                Email:
-                <a href="mailto:e.pavloich29@gmail.com" class="header__link"
-                  >e.pavloich29@gmail.com</a
-                >
-              </li>
-              <li class="header__item">
-                <span class="header__item-img"
-                  ><img
-                    src="./images/icon/telegram.png"
-                    alt=""
-                    class="header__icon"
-                /></span>
-                Telegram:
-                <a href="https://t.me/e_pavlovich" class="header__link">link</a>
-              </li>
-              <li class="header__item">
-                <span class="header__item-img"
-                  ><img
-                    src="./images/icon/linkedin.png"
-                    alt=""
-                    class="header__icon"
-                /></span>
-                LinkedIn:
-                <a
-                  href="https://www.linkedin.com/in/yauheni-paulovich-2601b31a5/"
-                  class="header__link"
-                  >link</a
-                >
-              </li>
-              <li class="header__item">
-                <span class="header__item-img"
-                  ><img
-                    src="./images/icon/code.png"
-                    alt=""
-                    class="header__icon"
-                /></span>
-                GitHub:
-                <a href="https://github.com/hello3world" class="header__link"
-                  >link</a
-                >
-              </li>
-              <li class="header__item">
-                <span class="header__item-img"
-                  ><img
-                    src="./images/icon/geo.png"
-                    alt=""
-                    id="icon_geo"
-                    class="header__icon"
-                /></span>
 
-                City: Minsk
+        <div class="experience__item-job">
+          <div class="experience__item-info">
+            <h4 class="experience__title">QA ENGINEER:</h4>
+            <div class="experience__place">
+              Hamsters Volunteer Project</div>
+            <div class="experience__date">Jan 2024 – Mar 2024</div>
+          </div>
+          <div class="experience__info">
+            <ul class="experience__list">
+              <li style="list-style-type: none; margin: 0 0 7px -15px">
+                Testing mobile app "ETNA Lite" (Android) and web app ETNA
+                Trader:
+              </li>
+              <li class="experience__item">
+                exploratory, functional, UI testing;
+              </li>
+              <li class="experience__item">writing bug reports;</li>
+              <li class="experience__item">
+                participation to online meeting.
               </li>
             </ul>
           </div>
-          <img src="./images/avatar.png" alt="" class="header__photo" />
         </div>
-      </div>
-    </header>
-    <section class="summary">
-      <div class="container summary__container">
-        <h3 class="summary__heading">Summary</h3>
-        <span class="hobbies__title">
-          Highly concentrated and motivated specialist with more than 9 years of
-          experience in the energy industry and 0.5 + years of quality assurance
-          experience. I'm proactive, adaptable, and has strong analytical and
-          self-organizing skills. I'm open, attentive to details and have good
-          communication skills. <br />
-          I pay great attention to the level of my professionalism, so I have a
-          continuous enthusiasm for constant self-study and the development of
-          my technical skills. I took courses in QA, Python, JavaScript, HTML,
-          CSS, (you can read more below). <br />
-          Feel free to contact me.
-        </span>
-      </div>
-    </section>
-    <section class="skills">
-      <div class="container skills__container">
-        <h3 class="skills__heading">Skills</h3>
-        <table class="skills__table">
-          <tr class="skills__row">
-            <th>Testing:</th>
-            <td>
-              <ul class="skills__list">
-                <li class="skills__item">
-                  Functional, integration manual testing of web and mobile
-                  applications
-                </li>
-                <li class="skills__item">
-                  Development of test cases, checklists, bug reports
-                  <a
-                    class="link_to_view"
-                    target="_blank"
-                    href="https://github.com/hello3world/TestDocumentation/blob/main/README.md"
-                    >link to view</a
-                  >
-                </li>
-              </ul>
-            </td>
-          </tr>
-          <tr class="skills__row">
-            <th>Languages:</th>
-            <td>
-              <ul class="skills__list">
-                <li class="skills__item">
-                  Python
-                  <a
-                    class="link_to_view"
-                    target="_blank"
-                    href="./images/certificate_Python.jpg"
-                    >certificate</a
-                  >
-                </li>
-                <li class="skills__item">
-                  JavaScript
-                  <a
-                    class="link_to_view"
-                    target="_blank"
-                    href="./images/certificate_JS.jpg"
-                    >certificate</a
-                  >
-                </li>
-              </ul>
-            </td>
-          </tr>
-          <tr class="skills__row">
-            <th>Databases (DBMS):</th>
-            <td>SQL / MySQL / SQLite</td>
-          </tr>
-          <tr class="skills__row">
-            <th>Front-end:</th>
-            <td>
-              <ul class="skills__list">
-                <li class="skills__item">
-                  HTML5
-                  <a
-                    class="link_to_view"
-                    href="https://github.com/hello3world/CV_QA-engineer/blob/main/CV/index.html"
-                    >link to view</a
-                  >
-                </li>
-                <li class="skills__item">
-                  CSS3 / SCSS
-                  <a
-                    class="link_to_view"
-                    href="https://github.com/hello3world/CV_QA-engineer/tree/main/CV/scss"
-                    >link to view</a
-                  >
-                </li>
-                <li class="skills__item">JSON</li>
-              </ul>
-            </td>
-          </tr>
-          <tr class="skills__row">
-            <th>TMS:</th>
-            <td>Jira + Zephyr</td>
-          </tr>
-          <tr class="skills__row">
-            <th>IDE:</th>
-            <td>PyCharm / Visual Studio Code</td>
-          </tr>
-          <tr class="skills__row">
-            <th>Tools:</th>
-            <td>
-              <ul class="skills__list">
-                <li class="skills__item">
-                  Git / Git Hub
-                  <a
-                    class="link_to_view"
-                    href="https://github.com/hello3world/TestDocumentation/blob/main/README.md"
-                    >link to view</a
-                  >
-                </li>
-                <li class="skills__item">Postman</li>
-                <li class="skills__item">Jmeter</li>
-                <li class="skills__item">Chrome DevTools</li>
-              </ul>
-            </td>
-          </tr>
-          <tr class="skills__row">
-            <th>Network:</th>
-            <td>Client-server architecture / HTTP</td>
-          </tr>
-          <tr class="skills__row">
-            <th>Other:</th>
-            <td>Figma, Photoshop, chatGPT</td>
-          </tr>
-        </table>
-      </div>
-    </section>
-    <section class="experience">
-      <div class="container experience__container">
-        <h3 class="experience__heading">Experience</h3>
-        <div class="experience__history">
-          <div class="experience__item-job">
-            <div class="experience__item-info">
-              <h4 class="experience__title">QA ENGINEER:</h4>
-              <div class="experience__place">
-                Hamsters Volunteer Project · internship
-              </div>
-              <div class="experience__date">Jan 2024 г. – Mar 2024</div>
-            </div>
-            <div class="experience__info">
-              <ul class="experience__list">
-                <li style="list-style-type: none; margin: 0 0 7px -15px">
-                  Testing mobile app "ETNA Lite" (Android) and web app ETNA
-                  Trader:
-                </li>
-                <li class="experience__item">
-                  exploratory, functional, UI testing;
-                </li>
-                <li class="experience__item">writing bug reports;</li>
-                <li class="experience__item">
-                  participation to online meeting.
-                </li>
-              </ul>
-            </div>
-          </div>
 
-          <div class="experience__item-job">
-            <div class="experience__item-info">
-              <h4 class="experience__title">QA AUTOMATION ENGINEER:</h4>
-              <div class="experience__place">RedRover.school · internship</div>
-              <div class="experience__date">Jan 2024 г. – present (remote)</div>
+        <div class="experience__item-job">
+          <div class="experience__item-info">
+            <h4 class="experience__title">
+              HEAD OF THE STAFF TRAINING DEPARTMENT:
+            </h4>
+            <div class="experience__place">
+              State production association of electric power industry
+              "Belenergo" (SPA "Belenergo")
             </div>
-            <div class="experience__info">
-              <ul class="experience__list">
-                <!-- <p>
-                  Testing mobile app "ETNA Lite" (Android) and web app ETNA
-                  Trader:
-                </p> -->
-                <li class="experience__item">testing requirements;</li>
-                <li class="experience__item">writing SQL-requests;</li>
-                <li class="experience__item">manage testing team;</li>
-                <li class="experience__item">writing test cases.</li>
-              </ul>
-            </div>
+            <div class="experience__date">May 2022 – present (office)</div>
           </div>
+          <div class="experience__info">
+            <ul class="experience__list">
+              <li class="experience__item">
+                setting tasks for the team consist of three department employees, monitoring the
+                implementation;
+              </li>
+              <li class="experience__item">
+                testing of the level of knowledge of the staff and development of technical tests;
 
-          <div class="experience__item-job">
-            <div class="experience__item-info">
-              <h4 class="experience__title">
-                HEAD OF THE STAFF TRAINING DEPARTMENT:
-              </h4>
-              <div class="experience__place">
-                State production association of electric power industry
-                "Belenergo" (SPA "Belenergo")
-              </div>
-              <div class="experience__date">May 2022 – present (office)</div>
-            </div>
-            <div class="experience__info">
-              <ul class="experience__list">
-                <!-- <p>
-                  Testing mobile app "ETNA Lite" (Android) and web app ETNA
-                  Trader:
-                </p> -->
-                <li class="experience__item">
-                  setting tasks for the department, monitoring the
-                  implementation;
-                </li>
-                <li class="experience__item">
-                  organizing and conducting emergency training with personnel to
-                  develop skills for making the right decisions in emergency
-                  situations
-                </li>
-                <li class="experience__item">
-                  development of technical tests and testing of the level of
-                  knowledge of the staff;
-                </li>
-                <li class="experience__item">
-                  development and organization of personnel management plans;
-                </li>
-                <li class="experience__item">
-                  participation in the development or examination of normative
-                  and technical documentation regulating the work of the staff;
-                </li>
-                <li class="experience__item">
-                  training and adaptation of the recruited staff.
-                </li>
-              </ul>
-            </div>
+              </li>
+              <li class="experience__item">
+                development and organization of management plans;
+              </li>
+              <li class="experience__item">
+                training and adaptation of the recruited staff.
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </section>
-    <section class="education">
-      <div class="container education__container">
-        <h3 class="education__heading">Education</h3>
-        <div class="education__info">
-          <ul class="education__list">
-            <li class="education__item">
-              <span class="education__title"
-                ><b>RedRover.School</b>, Automation QA-engineer
-              </span>
-              <span class="education__date">2024</span>
-            </li>
+    </div>
+  </section>
+  <section class="education">
+    <div class="container education__container">
+      <h3 class="education__heading">Education</h3>
+      <div class="education__info">
+        <ul class="education__list">
+          <li class="education__item">
+            <span class="education__title"><b>RedRover.School</b>, Automation QA-engineer
+            </span>
+            <span class="education__date">2024</span>
+          </li>
 
-            <li class="education__item">
-              <span class="education__title"
-                ><b>Stepik</b>, Python programming course (for automation
-                testing)
-                <a
-                  class="link_to_view"
-                  target="_blank"
-                  href="./images/certificate_Python.jpg"
-                  >certificate</a
-                >
-              </span>
-              <span class="education__date">2024</span>
-            </li>
+          <li class="education__item">
+            <span class="education__title"><b>Stepik</b>, Python programming course (for automation
+              testing)
+              <a class="link_to_view" target="_blank" href="./images/certificate_Python.jpg">certificate</a>
+            </span>
+            <span class="education__date">2024</span>
+          </li>
 
-            <li class="education__item">
-              <span class="education__title"
-                ><b>Stepik</b>, JavaScript programming course (for automation
-                testing)
-                <a
-                  class="link_to_view"
-                  target="_blank"
-                  href="./images/certificate_JS.jpg"
-                  >certificate</a
-                >
-              </span>
-              <span class="education__date">2024</span>
-            </li>
+          <li class="education__item">
+            <span class="education__title"><b>Stepik</b>, Course «Postman for API testing»
+              <a class="link_to_view" target="_blank" href="./images/stepik-certificate-API.jpg">certificate</a>
+            </span>
+            <span class="education__date">2024</span>
+          </li>
 
-            <li class="education__item">
-              <span class="education__title">
-                <b>Software testing from scratch to a specialist Alex Smith</b>,
-                QA-engineer
-                <a
-                  class="link_to_view"
-                  target="_blank"
-                  href="./images/certificate_QA_engineer.png"
-                  >certificate</a
-                >
-              </span>
-              <span class="education__date">2023</span>
-            </li>
-            <li class="education__item">
-              <span class="education__title"
-                ><b>RS School</b>, Frontend-developer
-                <a class="link_to_view" href="./images/certificate_RSSchool.jpg"
-                  >certificate</a
-                ></span
-              >
-              <span class="education__date">2023</span>
-            </li>
+          <li class="education__item">
+            <span class="education__title"><b>Stepik</b>, JavaScript programming course (for automation
+              testing)
+              <a class="link_to_view" target="_blank" href="./images/certificate_JS.jpg">certificate</a>
+            </span>
+            <span class="education__date">2024</span>
+          </li>
 
-            <li class="education__item">
-              <span class="education__title">
-                <b>Belarusian National Technical University</b>, Master's degree
-                in power Engineering
-              </span>
-              <span class="education__date">2009 – 2015</span>
-            </li>
-          </ul>
-        </div>
+          <li class="education__item">
+            <span class="education__title">
+              <b>Software testing from scratch to a specialist Alex Smith</b>,
+              QA-engineer
+              <a class="link_to_view" target="_blank" href="./images/certificate_QA_engineer.png">certificate</a>
+            </span>
+            <span class="education__date">2023</span>
+          </li>
+          <li class="education__item">
+            <span class="education__title"><b>RS School</b>, Frontend-developer
+              <a class="link_to_view" href="./images/certificate_RSSchool.jpg">certificate</a></span>
+            <span class="education__date">2023</span>
+          </li>
+
+          <li class="education__item">
+            <span class="education__title">
+              <b>Belarusian National Technical University</b>, Master's degree
+              in power Engineering
+            </span>
+            <span class="education__date">2009 – 2015</span>
+          </li>
+        </ul>
       </div>
-    </section>
-    <!-- <section class="courses">
-      <div class="container courses__container">
-        <h3 class="courses__heading">Сourses</h3>
-        <div class="courses__info">
-          <ul class="courses__list">
-            <li class="courses__item">
-              <span class="courses__title">
-                Basics of software testing, QA Academy, Software tester
-              </span>
-              <span class="courses__date">2018</span>
-            </li>
-            <li class="courses__item">
-              <span class="courses__title">RS School, Frontend-developer</span>
-              <span class="courses__date">2023</span>
-            </li>
-            <li class="courses__item">
-              <span class="courses__title">
-                Software testing from scratch to a specialist Alex Smith,
-                QA-engineer
-              </span>
-              <span class="courses__date">2023</span>
-            </li>
-          </ul>
-        </div>
+    </div>
+  </section>
+  <section class="lang">
+    <div class="container lang__container">
+      <h3 class="lang__heading">Languages</h3>
+      <div class="lang__info">
+        <ul class="lang__list">
+          <li class="lang__item">
+            English - Pre-Intermediate (B1 <i>in process</i>)
+          </li>
+          <li class="lang__item">Russian - Native</li>
+          <li class="lang__item">Belarusian - Native</li>
+        </ul>
       </div>
-    </section> -->
-    <section class="lang">
-      <div class="container lang__container">
-        <h3 class="lang__heading">Languages</h3>
-        <div class="lang__info">
-          <ul class="lang__list">
-            <li class="lang__item">
-              English - Pre-Intermediate (B1 <i>in process</i>)
-            </li>
-            <li class="lang__item">Russian - Native</li>
-            <li class="lang__item">Belarusian - Native</li>
-          </ul>
-        </div>
+    </div>
+  </section>
+  <section class="hobbies">
+    <div class="container hobbies__container">
+      <h3 class="hobbies__heading">Hobbies</h3>
+      <div class="hobbies__info">
+        <ul class="hobbies__list">
+          <li class="hobbies__item">Traveling</li>
+          <li class="hobbies__item">
+            YouTube channel
+            <a class="link_to_view" href="https://www.youtube.com/channel/UCO7gBsWcaREfGUDHnTxFsTQ">link</a>
+          </li>
+          <li class="hobbies__item">
+            Сodewars
+            <a class="link_to_view" href="https://www.codewars.com/users/rsschool_faa9083f479463d6">link</a>
+          </li>
+          <li class="hobbies__item">
+            Watching educational courses about QA and IT
+          </li>
+        </ul>
       </div>
-    </section>
-    <section class="hobbies">
-      <div class="container hobbies__container">
-        <h3 class="hobbies__heading">Hobbies</h3>
-        <div class="hobbies__info">
-          <ul class="hobbies__list">
-            <li class="hobbies__item">Traveling</li>
-            <li class="hobbies__item">
-              YouTube channel
-              <a
-                class="link_to_view"
-                href="https://www.youtube.com/channel/UCO7gBsWcaREfGUDHnTxFsTQ"
-                >link</a
-              >
-            </li>
-            <li class="hobbies__item">
-              Сodewars
-              <a
-                class="link_to_view"
-                href="https://www.codewars.com/users/rsschool_faa9083f479463d6"
-                >link</a
-              >
-            </li>
-            <li class="hobbies__item">
-              Watching educational courses about QA and IT
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <section class="galary">
-      <div class="container galary__container">
-        <h3 class="galary__heading">Galary</h3>
-        <!-- Portfolio Gallery Grid -->
-        <div class="row">
-          <div class="column">
-            <div class="content">
-              <a target="_blank" href="./images/certificate_Python.jpg">
-                <img
-                  src="./images/certificate_Python.jpg"
-                  alt="certificate Python"
-                  style="width: 100%"
-                />
-              </a>
-              <h4>Python certificate</h4>
-              <p>Python programming course on the Stepik platform</p>
-            </div>
+    </div>
+  </section>
+  <section class="galary">
+    <div class="container galary__container">
+      <h3 class="galary__heading">Galary</h3>
+      <!-- Portfolio Gallery Grid -->
+      <div class="row">
+        <div class="column">
+          <div class="content">
+            <a target="_blank" href="./images/certificate_Python.jpg">
+              <img src="./images/certificate_Python.jpg" alt="certificate Python" style="width: 100%" />
+            </a>
+            <h4>Python certificate</h4>
+            <p>Python programming course on the Stepik platform</p>
           </div>
-          <div class="column">
-            <div class="content">
-              <a target="_blank" href="./images/certificate_JS.jpg">
-                <img
-                  class="galary__img"
-                  src="./images/certificate_JS.jpg"
-                  alt="certificate JS"
-                  style="width: 100%"
-                />
-              </a>
-              <h4>JavaScript certificate</h4>
-              <p>JavaScript programming course on the Stepik platform</p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="content">
-              <a target="_blank" href="./images/certificate_QA_engineer.png">
-                <img
-                  src="./images/certificate_QA_engineer.png"
-                  alt="certificate QA engineer"
-                  style="width: 100%"
-              /></a>
-              <h4>QA-engineer certificate</h4>
-              <p>Software testing from scratch to a specialist Alex Smith</p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="content">
-              <a target="_blank" href="./images/certificate_RSSchool.jpg">
-                <img
-                  src="./images/certificate_RSSchool.jpg"
-                  alt="certificate Front-end"
-                  style="width: 100%"
-                />
-              </a>
-              <h4>Frontend-developer certificate</h4>
-              <p>RS School</p>
-            </div>
-          </div>
-          <!-- END GRID -->
         </div>
+
+        <div class="column">
+          <div class="content">
+            <a target="_blank" href="./images/stepik-certificate-API.jpg">
+              <img src="./images/stepik-certificate-API.jpg" alt="certificate API Postman" style="width: 100%" />
+            </a>
+            <h4>Postman for API testing</h4>
+            <p>Course «Postman for API testing» on the Stepik platform</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="content">
+            <a target="_blank" href="./images/certificate_JS.jpg">
+              <img class="galary__img" src="./images/certificate_JS.jpg" alt="certificate JS" style="width: 100%" />
+            </a>
+            <h4>JavaScript certificate</h4>
+            <p>JavaScript programming course on the Stepik platform</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <a target="_blank" href="./images/certificate_QA_engineer.png">
+              <img src="./images/certificate_QA_engineer.png" alt="certificate QA engineer" style="width: 100%" /></a>
+            <h4>QA-engineer certificate</h4>
+            <p>Software testing from scratch to a specialist Alex Smith</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <a target="_blank" href="./images/certificate_RSSchool.jpg">
+              <img src="./images/certificate_RSSchool.jpg" alt="certificate Front-end" style="width: 100%" />
+            </a>
+            <h4>Frontend-developer certificate</h4>
+            <p>RS School</p>
+          </div>
+        </div>
+        <!-- END GRID -->
       </div>
-    </section>
-    <script src="./scripts/index.js"></script>
-  </body>
+    </div>
+  </section>
+  <script src="./scripts/index.js"></script>
+</body>
+
 </html>

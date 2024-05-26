@@ -2,6 +2,7 @@
     &__toolbar {
         display: flex;
         justify-content: center;
+        margin-bottom: 20px;
     }
     padding: 20px 10px;
     &__container {
@@ -25,15 +26,15 @@
             1px 5px 0px rgb(115, 158, 211),
             1px 6px 0px rgb(115, 158, 211),
             1px 5px 5px rgba(16, 16, 16, 0.4),
-            1px 10px 10px rgba(16, 16, 16, 0.3),
-            1px 15px 25px rgba(16, 16, 16, 0.2),
             1px 20px 40px rgba(16, 16, 16, 0.1);
 
         margin: 0 0 20px 0;
         text-transform: uppercase;
     }
     &__name {
-        margin: 0 0 10px 0;
+        margin: 0 0 20px 0;
+        font-family: "Roboto", sans-serif;
+        font-size: 32px;
         font-weight: 800;
         text-transform: uppercase;
         letter-spacing: 1px;
@@ -63,6 +64,13 @@
         //     vertical-align: middle;
         // }
     }
+    &_number {
+        font-weight: 600;
+    }
+    &__city {
+        font-weight: 600;
+    }
+
     &__icon {
         width: 3%;
 

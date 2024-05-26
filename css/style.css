@@ -148,6 +148,7 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 20px;
 }
 .header__container {
   display: -webkit-box;
@@ -164,12 +165,14 @@ a {
   font-family: "Roboto", sans-serif;
   color: #63b0f7;
   text-transform: uppercase;
-  text-shadow: 1px 1px 0px rgb(115, 158, 211), 1px 2px 0px rgb(115, 158, 211), 1px 3px 0px rgb(115, 158, 211), 1px 4px 0px rgb(115, 158, 211), 1px 5px 0px rgb(115, 158, 211), 1px 6px 0px rgb(115, 158, 211), 1px 5px 5px rgba(16, 16, 16, 0.4), 1px 10px 10px rgba(16, 16, 16, 0.3), 1px 15px 25px rgba(16, 16, 16, 0.2), 1px 20px 40px rgba(16, 16, 16, 0.1);
+  text-shadow: 1px 1px 0px rgb(115, 158, 211), 1px 2px 0px rgb(115, 158, 211), 1px 3px 0px rgb(115, 158, 211), 1px 4px 0px rgb(115, 158, 211), 1px 5px 0px rgb(115, 158, 211), 1px 6px 0px rgb(115, 158, 211), 1px 5px 5px rgba(16, 16, 16, 0.4), 1px 20px 40px rgba(16, 16, 16, 0.1);
   margin: 0 0 20px 0;
   text-transform: uppercase;
 }
 .header__name {
-  margin: 0 0 10px 0;
+  margin: 0 0 20px 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -186,6 +189,12 @@ a {
 }
 .header__item {
   margin: 0 0 5px 0;
+}
+.header_number {
+  font-weight: 600;
+}
+.header__city {
+  font-weight: 600;
 }
 .header__icon {
   width: 3%;
@@ -355,6 +364,7 @@ a {
   background: #000;
   color: #fff;
   text-align: center;
+  text-transform: uppercase;
   -ms-flex-item-align: start;
       align-self: flex-start;
 }
@@ -409,6 +419,7 @@ a {
   background: #000;
   color: #fff;
   text-align: center;
+  text-transform: uppercase;
   -ms-flex-item-align: start;
       align-self: flex-start;
 }
@@ -488,6 +499,7 @@ a {
   background: #000;
   color: #fff;
   text-align: center;
+  text-transform: uppercase;
   -ms-flex-item-align: start;
       align-self: flex-start;
 }
@@ -542,6 +554,7 @@ a {
   background: #000;
   color: #fff;
   text-align: center;
+  text-transform: uppercase;
   -ms-flex-item-align: start;
       align-self: flex-start;
 }
@@ -611,6 +624,7 @@ a {
   background: #000;
   color: #fff;
   text-align: center;
+  text-transform: uppercase;
   -ms-flex-item-align: start;
       align-self: flex-start;
 }
@@ -673,6 +687,7 @@ a {
   background: #000;
   color: #fff;
   text-align: center;
+  text-transform: uppercase;
   -ms-flex-item-align: start;
       align-self: flex-start;
 }
@@ -713,6 +728,7 @@ a {
   background: #000;
   color: #fff;
   text-align: center;
+  text-transform: uppercase;
   -ms-flex-item-align: start;
       align-self: flex-start;
 }
@@ -757,6 +773,7 @@ a {
   background: #000;
   color: #fff;
   text-align: center;
+  text-transform: uppercase;
   -ms-flex-item-align: start;
       align-self: flex-start;
   width: 120px;
